@@ -1,0 +1,335 @@
+<!-- The content below is only a placeholder and can be replaced. -->
+<!--
+  <div style="text-align:center">
+    <h1>
+      Welcome to {{ title }}!
+    </h1>
+    <img width="300" alt="Angular Logo" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNTAgMjUwIj4KICAgIDxwYXRoIGZpbGw9IiNERDAwMzEiIGQ9Ik0xMjUgMzBMMzEuOSA2My4ybDE0LjIgMTIzLjFMMTI1IDIzMGw3OC45LTQzLjcgMTQuMi0xMjMuMXoiIC8+CiAgICA8cGF0aCBmaWxsPSIjQzMwMDJGIiBkPSJNMTI1IDMwdjIyLjItLjFWMjMwbDc4LjktNDMuNyAxNC4yLTEyMy4xTDEyNSAzMHoiIC8+CiAgICA8cGF0aCAgZmlsbD0iI0ZGRkZGRiIgZD0iTTEyNSA1Mi4xTDY2LjggMTgyLjZoMjEuN2wxMS43LTI5LjJoNDkuNGwxMS43IDI5LjJIMTgzTDEyNSA1Mi4xem0xNyA4My4zaC0zNGwxNy00MC45IDE3IDQwLjl6IiAvPgogIDwvc3ZnPg==">
+  </div>
+  <h2>Here are some links to help you start: </h2>
+  <ul>
+    <li>
+      <h2><a target="_blank" rel="noopener" href="https://angular.io/tutorial">Tour of Heroes</a></h2>
+    </li>
+    <li>
+      <h2><a target="_blank" rel="noopener" href="https://github.com/angular/angular-cli/wiki">CLI Documentation</a></h2>
+    </li>
+    <li>
+      <h2><a target="_blank" rel="noopener" href="https://blog.angular.io/">Angular blog</a></h2>
+    </li>
+  </ul>
+-->
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Heroes of Magic</title>
+    <h2><span style="color:goldenrod"> Welcome to Heroes Game </span></h2>
+    <link
+      href="https://fonts.googleapis.com/css?family=Handlee"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <div style="background-color:tan;color:black;padding:3px">
+      <form>
+        <b>Username </b><input type="text" name="username" /><br />
+        <b>Password </b><input type="password" name="password" /><br />
+        <a href="Fogrgot password"><small>Forgot password?</small></a>
+        <p>
+          <input
+            type="submit"
+            value="Login"
+            style="background-color:darkgoldenrod; color:white;"
+          />
+        </p>
+        New to Heroes? <a href="Sign up Free"><small>Sign Up Free</small></a>
+      </form>
+    </div>
+    <div style="padding:20px">
+      Status:<progress max="-100" min="0" value="50"></progress>
+    </div>
+    <div style="padding:20px">Time</div>
+    <div>
+      <iframe
+        src="https://gifimage.net/wp-content/uploads/2017/10/mapache-gif-3.gif"
+        allowfullscreen
+        frameborder="0"
+      ></iframe>
+    </div>
+    <audio src="grossvater.mp3" controls loop>Audio element</audio>
+    <audio controls loop>
+      <source src="grossvater.mp3" type="audio/mp3" />
+    </audio>
+
+    <audio src="coffeebreak.mp3" controls autoplay loop>Audio element</audio>
+
+    <audio controls autoplay loop>
+      <source src="coffeebreak.mp3" type="audio/m4p" />
+    </audio>
+
+    <table>
+      <tr>
+        <th><pre>Time</pre></th>
+        <th>Montag</th>
+        <th>Dienstag</th>
+        <th>Mittwoch</th>
+        <th>Donnerstag</th>
+        <th>Freitag</th>
+        <th>Samstag</th>
+        <th>Sonntag</th>
+      </tr>
+      <tr>
+        <td>07:00</td>
+        <td class="selected">Jogging</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>09:00</td>
+        <td class="selected">University</td>
+        <td>stretching</td>
+        <td></td>
+        <td>calling Mum</td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>11:00</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td class="selected">chilling</td>
+        <td>calling friends</td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>14:00</td>
+        <td></td>
+        <td></td>
+        <td class="selected1">Doing Homework</td>
+        <td></td>
+        <td></td>
+        <td class="span">watching Netflix</td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>17:00</td>
+
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td class="selected1">Dining</td>
+        <td></td>
+      </tr>
+    </table>
+
+    <form action="url" method="POST">
+      <label> Username </label> <input type="text" name="username" /> <br />
+      <label> Password </label><input type="password" name="password" /><br />
+      <div class="align">
+        <input type="submit" value="SEND" name="submit" />
+      </div>
+    </form>
+
+    <div id="header" class="section"><p>Jonathan Jäger</p></div>
+    <div class="section">
+      <table style="border:0.5px white">
+        <tr>
+          <th>
+            <figure>
+              <img
+                src="https://proxy.duckduckgo.com/iu/?u=http%3A%2F%2Fartistically.in%2Fwp-content%2Fuploads%2F2017%2F01%2Fhero_img_artday_bg_only.jpg&f=1"
+                width="95%"
+                height="95%"
+                target="_blank"
+                rel="stylesheet"
+              />
+              <figcaption>
+                <cite><strong>Hero</strong></cite> -- by Painter 7the world
+              </figcaption>
+            </figure>
+          </th>
+          <th>
+            <figure>
+              <img
+                src="http://www.wallpaperawesome.com/wallpapers-awesome/wallpapers-famous-painting-artist-painter-brush-oil-on-canvas-awesome/wallpapers-famous-painting-artist-painter-brush-oil-on-canvas-awesome-135.jpg"
+                width="95%"
+                height="95%"
+                rel="stylesheet"
+                target="_blank"
+              />
+              <figcaption>
+                <cite><strong>Grasslands</strong></cite> -- by Wolfgang Werde
+              </figcaption>
+            </figure>
+          </th>
+        </tr>
+      </table>
+
+      <h1><span>About Me</span>About Me</h1>
+      <p>
+        Hey! I'm <strong>Johnny</strong>. Coding has changed my world. It's not
+        just about apps. <br />Learning to code gave me
+        <i>problem-solving skills </i> and a way to communicate with others on a
+        technical level. I can also develop websites and use my coding skills to
+        get a better job. <br />And I learned it all at
+        <strong>SoloLearn</strong> where they build your self-esteem and keep
+        you motivated. Join me in this rewarding journey. <br />You'll have fun,
+        get help, and learn along the way!
+      </p>
+      <p class="quote">"Declare variables, not war"</p>
+    </div>
+    <div class="section">
+      <h1><span>My Coding Schedule</span></h1>
+      <hr width="1250px" align="right" />
+      <hr width="75%" align="left" />
+      <table>
+        <tr>
+          <th>Day</th>
+          <th>Mon</th>
+          <th>Tue</th>
+          <th>Wed</th>
+          <th>Thu</th>
+          <th>Fri</th>
+        </tr>
+        <tr>
+          <td>8-8:30</td>
+          <td class="selected">Learn</td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+        </tr>
+        <tr>
+          <td>9-10</td>
+          <td></td>
+          <td class="selected">Practice</td>
+          <td></td>
+          <td></td>
+          <td></td>
+        </tr>
+        <tr>
+          <td>1-1:30</td>
+          <td></td>
+          <td></td>
+          <td class="selected">Play</td>
+          <td></td>
+          <td></td>
+        </tr>
+        <tr>
+          <td>3:45-5</td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td class="selected">Code</td>
+          <td></td>
+        </tr>
+        <tr>
+          <td>6-6:15</td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td class="selected">Discuss</td>
+        </tr>
+      </table>
+    </div>
+    <div class="section">
+      <h1><span>My Skills</span></h1>
+      <ul>
+        <li>
+          HTML <br />
+          <progress min="0" max="100" value="100"></progress>
+        </li>
+        <li>
+          C++ <br />
+          <progress min="0" max="100" value="100"></progress>
+        </li>
+        <li>
+          Java <br />
+          <progress min="0" max="100" value="100"></progress>
+        </li>
+        <li>
+          Java Script <br />
+          <progress min="0" max="100" value="100"></progress>
+        </li>
+        <li>
+          JQuery<br />
+          <progress min="0" max="100" value="100"></progress>
+        </li>
+        <li>
+          PHP <br />
+          <progress min="0" max="100" value="100"></progress>
+        </li>
+        <li>
+          Python <br />
+          <progress min="0" max="100" value="100"></progress>
+        </li>
+        <li>
+          C <br />
+          <progress min="0" max="100" value="100"></progress>
+        </li>
+        <li>
+          Ruby <br />
+          <progress min="0" max="100" value="100"></progress>
+        </li>
+        <li>
+          Swift <br />
+          <progress min="0" max="100" value="100"></progress>
+        </li>
+        <li>
+          C# <br />
+          <progress min="0" max="100" value="100"></progress>
+        </li>
+        <li>
+          SQL <br />
+          <progress min="0" max="100" value="100"></progress>
+        </li>
+      </ul>
+    </div>
+    <div class="section">
+      <h1><span>Contact Me</span></h1>
+      <svg class="face" height="100" width="100">
+        <circle cx="50" cy="50" r="50" fill="#FDD835" />
+        <circle cx="30" cy="30" r="10" fill="#FFFFFF" />
+        <circle cx="70" cy="30" r="10" fill="#FFFFFF" />
+        <circle cx="30" cy="30" r="5" fill="#000000" />
+        <circle cx="70" cy="30" r="5" fill="#000000" />
+        <path
+          d="M 30 70 q 20 20 40 0"
+          stroke="#FFFFFF"
+          stroke-width="5"
+          fill="none"
+        />
+      </svg>
+
+      <form>
+        <input name="name" placeholder="Name" type="text" required /><br />
+        <input name="email" placeholder="Email" type="email" required /><br />
+        <textarea name="message" placeholder="Message" required></textarea>
+        <input type="submit" value="SEND" class="submit" />
+      </form>
+    </div>
+    <div class="section" id="contacts">
+      <h1>
+        <span
+          ><a href="https://www.sololearn.com/Profile/8843885/?ref=app"
+            >Follow Me</a
+          ></span
+        >
+      </h1>
+    </div>
+    <div class="copyright">
+      &copy; 2018 Jonathan Jäger. All rights reserved.
+    </div>
+  </body>
+</html>
